@@ -1,0 +1,6 @@
+insert into course(id, name, author) values (1,'Title1', 'Reuben');
+insert into course(id, name, author) values (2,'Title2', 'Frankenstein');
+
+Select * from course;
+
+delete from course where id = 2;
